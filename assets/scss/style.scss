@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100vh;
+    width: 100vw;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+/*  -- - - - -- - -  */
+/* login page */
+/* - - - - - --  */
+.login-box{
+    background-color: rgb(85, 119, 91);
+    padding: 1.75rem 2rem;
+    padding-bottom: 3rem;
+    border-radius: 15px;
+    width: 25vw;
+}
+
+.log-hed{
+    text-align: center;
+}
+
+.user-box{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+.user-box input{
+    height: 2.5rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+.log-submit{
+    background-color: rgb(139, 233, 45);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    border: none;
+    height: 2.5rem;
+    width: 100%;
+}
+
+
+/* - - - - - --  */
+/* student page */
+/* - - - - - --  */
+
+.std-cont{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    color: #000;
+    width: 100vw;
+    height: 100vh;
+    /* padding: 1rem; */
+}
+.img-cont{
+    height: 10rem;
+    width: 9rem;
+    background-color: #000;
+}
+.img-cont img{
+    width: 100%;
+    height: 100%;
+}
+
+.person-info,
+.camera-cont{
+    padding: 2rem;
+}
+.camera{
+    background-color: #000;
+    width: 100%;
+    height: 35rem;
+}
+.so{
+    color: black;
+}
